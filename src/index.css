@@ -5,6 +5,7 @@
 
 @layer base {
   :root {
+    --border: 224 71% 4%;
     --background: 210 33% 99%;
     --foreground: 210 33% 15%;
 
@@ -87,7 +88,8 @@
 
 @layer base {
   * {
-    @apply border-border;
+    @apply border-gray-200;
+
   }
 
   body {
